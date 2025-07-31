@@ -13,10 +13,6 @@ header {
     height: 300px;
     text-align: center;
     background-color: teal;
-;
-}
-img {
-    margin: 20px;
 }
 
 h1,h2,p {
@@ -34,11 +30,11 @@ a:hover:not(.active) {
     color:white;
 }
 
-li {
+nav ul li {
     float: left;
     border-right: 1px solid #bbb;
 }
-ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -49,13 +45,13 @@ ul {
 }
 /*li*/ a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 a:hover{
-    background-color: black;
+    background-color: lightblue;
 }
 li:last-child {
   border-right: none;
@@ -64,10 +60,15 @@ button {
     width:200px;
     height:50px;
     background-color: teal;
+    display: block; 
+    margin: 0 auto;
 }
 button a:hover:not(.active) {
     color: white;
     text-decoration: none;
+}
+.container {
+    text-align: center;
 }
 input[type=text],input[type=email] ,select {
     width: 100%;
