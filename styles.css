@@ -5,6 +5,11 @@ header {
     /*background-color: rgb(27, 126, 207);*/
     color: black;
     background-color: teal;
+    display:flex;
+    align-items: center;
+}
+img{
+    margin-left: 15px;
 }
 .text {
     flex: 1;
@@ -20,10 +25,11 @@ h1,h2,p {
     color: black;
 }
 
-header nav {
+nav {
     text-align: center;
     color: lightgrey;
     justify-content: center;
+    border-top: 2px solid beige;
 }
 
 a:hover:not(.active) {
