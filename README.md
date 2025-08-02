@@ -3,6 +3,10 @@
 
 A clean, professional personal portfolio website showcasing Michelle Ndunge's background as a Software Engineer and Computer Science student.
 
+## Deployment Details
+
+The project is deployed on Vercel: (https://personal-portfolio-fawn-phi.vercel.app/)
+
 ## Features
 
 - **Responsive Design**: Clean and professional layout optimized for various screen sizes
