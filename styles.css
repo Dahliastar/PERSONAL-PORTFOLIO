@@ -1,16 +1,19 @@
+/*Body Styling*/
 body {
     background-color:beige;
 }
+/*Header Styling*/
 header {
-    /*background-color: rgb(27, 126, 207);*/
     color: black;
     background-color: teal;
     display:flex;
     align-items: center;
 }
+/*Image Styling*/
 img{
     margin-left: 15px;
 }
+/*Styling for the text class in the header section*/
 .text {
     flex: 1;
     margin: 20px;
@@ -19,23 +22,18 @@ img{
     text-align: center;
     background-color: teal;
 }
-
+/*Styling for h1,h2 and paragraphs*/
 h1,h2,p {
     text-align: center;
     color: black;
 }
-
+/*Navigation Styling*/
 nav {
     text-align: center;
     color: lightgrey;
     justify-content: center;
     border-top: 2px solid beige;
 }
-
-a:hover:not(.active) {
-    color:white;
-}
-
 nav ul li {
     float: left;
     border-right: 1px solid #bbb;
@@ -49,19 +47,22 @@ nav ul {
   position: sticky;
   top: 0;
 }
-/*li*/ a {
+/*Link Styling*/
+a {
   display: block;
   color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
+/*Link Styling upon hovering*/
 a:hover{
     background-color: lightblue;
 }
 li:last-child {
   border-right: none;
 }
+/*Button Styling*/
 button {
     width:200px;
     height:50px;
@@ -73,9 +74,13 @@ button a:hover:not(.active) {
     color: white;
     text-decoration: none;
 }
-.container {
-    text-align: center;
+/*Form Styling*/
+#form {
+  border-radius: 5px;
+  background-color: beige;
+  padding: 20px;
 }
+/*Form Input Styling*/
 input[type=text],input[type=email] ,select {
     width: 100%;
     padding: 12px 20px;
@@ -85,7 +90,6 @@ input[type=text],input[type=email] ,select {
     border-radius: 4px;
     box-sizing: border-box;
 }
-
 input[type=submit] {
   width: 100%;
   background-color: teal;
@@ -96,12 +100,7 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 }
-div {
-  border-radius: 5px;
-  background-color: beige;
-  padding: 20px;
-}
-
+/*Message box Styling*/
 #comment {
     width: 100%;
     padding: 12px 20px;
@@ -111,7 +110,10 @@ div {
     border-radius: 4px;
     box-sizing: border-box;
 }
-
+/*Footer Styling*/
 footer {
     background-color: beige;
+}
+#name {
+    text-align: left;
 }
