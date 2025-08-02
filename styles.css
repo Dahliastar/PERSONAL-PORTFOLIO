@@ -25,7 +25,7 @@ img{
 /*Styling for h1,h2 and paragraphs*/
 h1,h2,p {
     text-align: center;
-    color: black;
+    color: rgb(22, 19, 19);
 }
 /*Navigation Styling*/
 nav {
@@ -36,7 +36,7 @@ nav {
 }
 nav ul li {
     float: left;
-    border-right: 1px solid #bbb;
+    border-right: 1px solid #c7acac;
 }
 nav ul {
   list-style-type: none;
@@ -57,7 +57,7 @@ a {
 }
 /*Link Styling upon hovering*/
 a:hover{
-    background-color: lightblue;
+    background-color: rgb(90, 149, 170);
 }
 li:last-child {
   border-right: none;
@@ -71,13 +71,13 @@ button {
     margin: 0 auto;
 }
 button a:hover:not(.active) {
-    color: white;
+    color: rgb(219, 102, 102);
     text-decoration: none;
 }
 /*Form Styling*/
 #form {
   border-radius: 5px;
-  background-color: beige;
+  background-color: rgb(221, 221, 218);
   padding: 20px;
 }
 /*Form Input Styling*/
@@ -106,7 +106,7 @@ input[type=submit] {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid #9b9191;
     border-radius: 4px;
     box-sizing: border-box;
 }
