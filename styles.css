@@ -71,13 +71,13 @@ button {
     margin: 0 auto;
 }
 button a:hover:not(.active) {
-    color: rgb(219, 102, 102);
+    color: white;
     text-decoration: none;
 }
 /*Form Styling*/
 #form {
   border-radius: 5px;
-  background-color: rgb(221, 221, 218);
+  background-color: beige;
   padding: 20px;
 }
 /*Form Input Styling*/
