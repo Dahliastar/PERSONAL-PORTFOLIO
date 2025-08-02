@@ -113,7 +113,11 @@ input[type=submit] {
 /*Footer Styling*/
 footer {
     background-color: beige;
+    text-align: left;
 }
 #name {
+    text-align: left;
+}
+.account {
     text-align: left;
 }
