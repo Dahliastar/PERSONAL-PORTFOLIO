@@ -8,9 +8,6 @@ header {
     background-color: teal;
     display:flex;
     align-items: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
 }
 /*Image Styling*/
 img{
@@ -36,6 +33,9 @@ nav {
     color: lightgrey;
     justify-content: center;
     border-top: 2px solid beige;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 nav ul li {
     float: left;
