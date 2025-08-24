@@ -8,6 +8,9 @@ header {
     background-color: teal;
     display:flex;
     align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 /*Image Styling*/
 img{
